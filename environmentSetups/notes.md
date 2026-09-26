@@ -10,5 +10,5 @@ can just type `make` instead of long g++ command
 ### Building executable 
 - `all: $(TARGET)`
 - `$(TARGET): $(SRC) $(MY_CLASSES) $(CXX) $(CXXFLAGS) $(SRC) -o $(TARGET) $(LDFLAGS) $(LIBS) $(MY_CLASSES)`
-- ### make clean
+### make clean
 - `clean: rm -f $(TARGET)`
