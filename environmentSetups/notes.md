@@ -12,3 +12,6 @@ can just type `make` instead of long g++ command
 - `$(TARGET): $(SRC) $(MY_CLASSES) $(CXX) $(CXXFLAGS) $(SRC) -o $(TARGET) $(LDFLAGS) $(LIBS) $(MY_CLASSES)`
 ### make clean
 - `clean: rm -f $(TARGET)`
+
+# run.sh
+`make clean`, `make` `./target_file` 
